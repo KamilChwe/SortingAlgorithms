@@ -1,6 +1,9 @@
 // Included libraries
 #include <iostream>
 #include <vector>
+#include <chrono>
+
+using namespace std;
 
 // declare the sorter namespace
 namespace srt{
@@ -8,6 +11,7 @@ namespace srt{
     class sorters{
         // Public functions
         public:
-        void bubblesort();
+        void bubblesort(vector<int>);
+        void displayList(vector<int>);
     };
 }
