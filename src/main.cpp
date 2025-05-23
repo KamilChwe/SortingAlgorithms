@@ -9,7 +9,7 @@ using namespace std;
 using namespace srt;
 
 // Setup a test vector
-// Sorted should be 2, 4, 9, 20, 55, 56, 104
+// Sorted should be 1, 2, 3, 4, 5, 8, 9, 20, 21, 26, 42, 55, 56, 65, 77, 89, 100, 104, 123, 900
 vector<int> unsortedList = {56, 9, 20, 4, 55, 104, 2, 5, 8, 123, 900, 65, 26, 77, 1, 89, 42, 3, 100, 21};
 
 void main(){
