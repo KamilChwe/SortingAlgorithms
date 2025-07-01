@@ -12,6 +12,9 @@ namespace srt{
         // Public functions
         public:
         void bubblesort(vector<int>);
+        void mergesort(vector<int>);
+        void quicksort(vector<int>);
+        void cyclesort(vector<int>);
         void displayList(vector<int>);
     };
 }

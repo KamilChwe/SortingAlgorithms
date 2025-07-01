@@ -4,8 +4,9 @@
 using namespace srt;
 
 // Utilising the headers define bubblesort function
-void sorters::bubblesort(vector<int> unsortedVector)
-{
+// bubblesort check current and next value and swaps them
+// goes through the list as many times until no more swaps are possible
+void sorters::bubblesort(vector<int> unsortedVector){
     // A boolean to store if there are any swapped happening
     bool swapped;
     // The size of the vector provided
@@ -48,6 +49,18 @@ void sorters::bubblesort(vector<int> unsortedVector)
 
     // Display the end of the algorithm and the time taken
     cout << "Bubble Sort - Finished in " << totalTime.count() << "ms" << endl;
+}
+
+void sorters::mergesort(vector<int> unsortedVector){
+    
+}
+
+void sorters::quicksort(vector<int> unsortedVector){
+
+}
+
+void sorters::cyclesort(vector<int> unsortedVector){
+
 }
 
 void sorters::displayList(vector<int> Vector){
